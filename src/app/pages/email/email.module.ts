@@ -4,19 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { DatetimePageRoutingModule } from './datetime-routing.module';
+import { EmailPageRoutingModule } from './email-routing.module';
 
-import { DatetimePage } from './datetime.page';
+import { EmailPage } from './email.page';
 import { ComponentsModule } from "../../components/components.module";
 
 @NgModule({
-    declarations: [DatetimePage],
+    declarations: [EmailPage],
     imports: [
         CommonModule,
         FormsModule,
         IonicModule,
-        DatetimePageRoutingModule,
+        EmailPageRoutingModule,
         ComponentsModule
     ]
 })
-export class DatetimePageModule {}
+export class EmailPageModule {}
